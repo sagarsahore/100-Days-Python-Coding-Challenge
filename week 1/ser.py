@@ -4,3 +4,6 @@ def factorial(n):
         return 1
     else:
         return n * factorial(n-1)
+
+    #test the function
+print(factorial(5))  # Output: 120
